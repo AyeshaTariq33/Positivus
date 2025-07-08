@@ -318,7 +318,6 @@ h3 {
 .cta-content .hero-button {
   display: inline-block;
   width: auto;
-  max-width: 100%;
 }
 
 .case-studies{
@@ -395,8 +394,6 @@ h3 {
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 30px;
-  height: 30px;
 }
 
 .name-role-row {
@@ -494,9 +491,8 @@ h3 {
 }
 
 .contact-art img {
-  width: 300px;
+  max-width: 300px;
   height: auto;
-  max-width: 100%;
 }
  
 .footer-section {
