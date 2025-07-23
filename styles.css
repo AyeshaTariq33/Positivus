@@ -3,26 +3,20 @@
   font-style: normal;
   src: url('./fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
 }
-
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-
-
-
 body {
   font-family: 'Space Grotesk', sans-serif;
   background-color: #ffffff;
   color: #191A23;
 }
-
 .wrapper {
   height: auto;
   overflow: auto;
 }
-
 #menu-toggle:checked ~ .wrapper {
   height: 100vh;
   overflow: hidden;
@@ -30,14 +24,11 @@ body {
 #menu-toggle:checked ~ .wrapper .nav-links {
   display: block; 
 }
-
-
 p {
   padding: 0px 0px 15px 0px;
   font-size: 18px;
   line-height: 22px;
 }
-
 button {
   text-align: center;
   font-family: 'Space Grotesk', sans-serif;
@@ -1423,13 +1414,10 @@ h3 {
   line-height: 16px;
 }
 }
-
 @media screen and (min-width: 390px) and (max-width: 576px) {
   .container {
     padding: 0 15px;
-}  
-  
-
+}
  #menu-toggle:checked ~ .wrapper .nav-links {
     display: flex;
   }
@@ -1443,7 +1431,6 @@ h3 {
         justify-content: center;
         margin-bottom: 15px;
     }   
-
 .nav-links {
   display: none;
   flex-direction: column;
