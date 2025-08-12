@@ -34,18 +34,15 @@ button {
   font-family: 'Space Grotesk', sans-serif;
   border: none;
 }
-
 h3 {
   font-size: 30px;
   color: #000000;
 }
-
 .container {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -136,7 +133,6 @@ h3 {
     line-height: 20px;
     margin: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
-
 }
 
 .hero-button:hover {
@@ -1443,18 +1439,14 @@ h3 {
   gap: 20px;
   padding: 20px 0; 
   z-index: 999;
-}
-
-    
+}    
        .logo {
         max-width: 125px;
         padding: 0;
     }
-
 .menu-toggle:checked ~ .nav-links {
   display: flex;
 }
-
 .hamburger {
   display: block;
   font-size: 28px;
